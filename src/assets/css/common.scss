@@ -1,0 +1,50 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  height: 100%;
+  position: relative;
+  background-color: #000;
+}
+html,body{
+  height: 100%;
+  max-width: 640px;
+  margin:0 auto;
+}
+.gridContainer{
+  position: absolute;
+  top:0rem;
+  left: 0rem;
+  width: 6.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  // overflow: hidden;
+  background-color: #000;
+  color: #fff;
+}
+.contain{
+  position: absolute;
+  top:0rem;
+  left:0rem;
+  width: 6.4rem;
+  height:10.4rem;
+  // overflow: hidden;
+}
+.page-bg-img{
+  width:6.4rem;
+  height:10.4rem;
+}
+.page-logo{
+  position: absolute;
+  top:0.65rem;
+  left:0.5rem;
+  width: 0.8rem;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 2s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 2s;
+}
